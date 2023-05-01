@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         view.layer.shadowOffset = CGSize(width: 5, height: 5)
         view.layer.shadowRadius = 10
         return view
+        //
     }()
     
     let gradientLayer: CAGradientLayer = {
